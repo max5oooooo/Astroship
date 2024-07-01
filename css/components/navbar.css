@@ -1,0 +1,16 @@
+nav {
+    margin: 20px auto;
+}
+
+nav .nav__logo a span {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+nav .nav__menu {
+    gap: 25px;
+}
+
+nav .nav__menu .nav__menu-item {
+    cursor: pointer;
+}

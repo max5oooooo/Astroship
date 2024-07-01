@@ -1,0 +1,37 @@
+.card-info {
+    display: flex;
+    flex-direction: row;
+    flex: 33%;
+}
+
+.card-info .card-info__left {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: flex-start;
+}
+
+.card-info .card-info__left .card-info__left-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.card-info .card-info__left .card-info__left-icon svg {
+    fill: white;
+    width: 12px;
+    height: 12px;
+}
+
+.card-info .card-info__right {
+    padding: 10px;
+}
+
+.card-info .card-info__right p {
+    margin-top: 10px;
+    line-height: 1.25rem;
+}

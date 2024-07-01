@@ -1,0 +1,45 @@
+section#sec-1 .sec-1__title h2 {
+    font-size: 2.25rem;
+}
+
+section#sec-1 .sec-1__title p {
+    font-size: 1rem;
+    margin: 10px auto 25px auto;
+}
+
+section#sec-1 .sec-1__cotent {
+    gap: 0.33%;
+}
+
+section#sec-1 .sec-1__cotent > div {
+    margin-top: 25px;
+}
+
+section#sec-2 .sec-2__logos {
+    margin: 50px auto;
+    gap: 50px;
+}
+
+section#sec-2 .sec-2__logos .sec-2__logos-item svg {
+    width: 48px;
+    height: 48px;
+}
+
+section#sec-3 .sec-3__banner {
+    padding: 4rem 5rem;
+    border-radius: 10px;
+    width: 820px;
+}
+
+section#sec-3 .sec-3__banner h2 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+section#sec-3 .sec-3__banner p {
+    font-size: 1rem;
+    margin: 20px auto;
+    color: white;
+}
