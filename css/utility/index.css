@@ -21,6 +21,7 @@
 }
 
 .justify-center {
+    /* Following direction */
     justify-content: center;
 }
 
@@ -29,6 +30,7 @@
 }
 
 .items-center {
+    /* Inverse of direction */
     align-items: center;
 }
 

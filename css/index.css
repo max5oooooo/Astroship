@@ -4,8 +4,9 @@
 @import url('./root.css');
 @import url('./main.css');
 
-/* Pages CSS */
+/* Pages */
 @import url('./pages/homepage.css');
+@import url('./pages/pricing.css');
 
 /* Utility */
 @import url('./utility/index.css');
@@ -13,6 +14,9 @@
 /* Components CSS */
 @import url('./components/buttons.css');
 @import url('./components/cards.css');
-@import url('./components/navbar.css');
 @import url('./components/hero.css');
-@import url('./components/footer.css');
+
+/* Pages global components */
+@import url('./components/global/navbar.css');
+@import url('./components/global/header.css');
+@import url('./components/global/footer.css');
