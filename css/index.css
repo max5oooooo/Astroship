@@ -8,6 +8,7 @@
 @import url('./pages/homepage.css');
 @import url('./pages/pricing.css');
 @import url('./pages/about.css');
+@import url('./pages/blog.css');
 
 /* Utility */
 @import url('./utility/index.css');
