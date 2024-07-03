@@ -1,0 +1,38 @@
+ .about__box-cards {
+    gap: 3.7%;
+    width: 100%;
+    max-width: var(--variant-max-width);
+    margin: 150px;
+}
+
+.card-body h5 {
+    font-size:medium;
+    height: 1.25rem;
+}
+.card-body p {
+    font-size: 0.7rem;
+}
+
+img {
+    height: 220px;
+    width: 210px;
+    border-radius: 5px;
+    transition: 2s;
+}
+
+img:hover {
+    position: relative;
+    bottom: 0.2%;
+    -ms-transform:scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2)
+}
+
+
+.card-body {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    line-height: 1rem;
+    text-align: center;
+    font-feature-settings:normal
+}

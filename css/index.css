@@ -16,6 +16,7 @@
 @import url('./components/buttons.css');
 @import url('./components/cards.css');
 @import url('./components/hero.css');
+@import url('./components/about-box.css');
 
 /* Pages global components */
 @import url('./components/global/navbar.css');
