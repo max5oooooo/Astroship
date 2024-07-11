@@ -6,8 +6,9 @@
 }
 
 .card-body h5 {
-    font-size:medium;
+    font-size:0.9rem;
     height: 1.25rem;
+    font-weight: inherit;
 }
 .card-body p {
     font-size: 0.7rem;
