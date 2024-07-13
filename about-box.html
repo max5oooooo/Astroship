@@ -1,42 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/index.css" />
 </head>
+
 <body>
-    <main>
-        <div class="about__box-cards flex justify-center items-center">
-            <div class="card-about">
-                <div class="card-about__header">
-                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?&fit=crop&w=280"alt=""/>
+    <nav class="wrapper">
+        <div class="container flex items-center">
+            <div class="nav__logo">
+                <a href="/" class="flex">
+                    <span class="color-primary">Astro</span>
+                    <span>ship</span>
+                </a>
+            </div>
+            <div class="nav__menu flex flex-grow justify-center">
+                <div class="nav__menu-item">
+                    <a href="/features.html">Features</a>
                 </div>
-                <div class="card-body">
-                    <h5>Janette Lynch</h5>
-                    <p>Senior Director</p>
+                <div class="nav__menu-item">
+                    <a href="/pricing.html">Pricing</a>
+                </div>
+                <div class="nav__menu-item">
+                    <a href="/about.html">About</a>
+                </div>
+                <div class="nav__menu-item">
+                    <a href="/blog.html">Blog</a>
+                </div>
+                <div class="nav__menu-item">
+                    <a href="/contact.html">Contact</a>
+                </div>
+                <div class="nav__menu-item">
+                    <a href="/pro-version.html">Pro Version</a>
                 </div>
             </div>
-            <div class="card-about">
-                <div class="card-about__header">
-                    <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?&fit=crop&w=280"alt=""/>
-                </div>
-                <div class="card-body">
-                    <h5>Marcell Ziemann</h5>
-                    <p>Principal Strategist</p>
-                </div>
-            </div>
-            <div class="card-about">
-                <div class="card-about__header">
-                    <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?&fit=crop&w=280"alt=""/>
-                </div>
-                <div class="card-body">
-                    <h5>Robert Palmer</h5>
-                    <p>Marketing Engineer</p>
-                </div>
+            <div class="nav__actions flex">
+                <button class="btn btn-wt">Log in</button>
+                <button class="btn btn-bb">Sign up</button>
             </div>
         </div>
+    </nav>
+    <header class="generale-header wrapper section">
+        <div class="container flex flex-col items-center">
+            <h1>About</h1>
+            <p>We are a small passionate team.</p>
+        </div>
+    </header>
+    <main>
+        <section class="wrapper section" id="about">
+            <div class="container flex justify-center">
+                <div class="about__box">
+                    <div class="about__box-title">
+                        <h2>Empowering the world with Astro.</h2>
+                        <p>We're a multi-cultural team from around the world! We come from diverse backgrounds, bringing
+                            different personalities, experiences and skills to the job. This is what makes our team so
+                            special.</p>
+                    </div>
+                    <div class="about__box-cards flex flex-row justify-between items-center">
+                        <div class="card-about flex-col flex justify-center items-center ">
+                            <div class="card-about__header">
+                                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?&fit=crop&w=280" alt="" />
+                            </div>
+                            <div class="card-body flex-col flex justify-center items-center ">
+                                <h5>Janette Lynch</h5>
+                                <p>Senior Director</p>
+                            </div>
+                        </div>
+                        <div class="card-about flex-col flex justify-center items-center ">
+                            <div class="card-about__header">
+                                <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?&fit=crop&w=280" alt="" />
+                            </div>
+                            <div class="card-body">
+                                <h5>Marcell Ziemann</h5>
+                                <p>Principal Strategist</p>
+                            </div>
+                        </div>
+                        <div class="card-about flex-col flex justify-center items-center">
+                            <div class="card-about__header">
+                                <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?&fit=crop&w=280" alt="" />
+                            </div>
+                            <div class="card-body">
+                                <h5>Robert Palmer</h5>
+                                <p>Marketing Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
     </main>
+    <footer class="wrapper section">
+        <div class="container footer__box flex flex-col justify-center items-center">
+            <p class="footer__box-top">Copyright © 2024 Astroship. All rights reserved.</p>
+            <p class="footer__box-bottom">Made by Web3Templates</p>
+        </div>
+    </footer>
+
 </body>
+
 </html>
