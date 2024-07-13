@@ -1,0 +1,5 @@
+#pricing-box .pricing-box__cards {
+    gap: 3.33%;
+    width: 100%;
+    max-width: var(--variant-max-width);
+}

@@ -1,0 +1,14 @@
+section#about .about__box {
+    width: 100%;
+    max-width: var(--variant-max-width);
+}
+
+section#about .about__box .about__box-title h2 {
+    font-size: 1.5rem;
+} 
+
+section#about .about__box .about__box-title p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+}

@@ -1,0 +1,10 @@
+:root {
+    /* Glbal */
+    --global-font-size: 16px;
+    --global-font-family: "Bricolage Grotesque", sans-serif;
+    --global-max-width: 1020px;
+    --variant-max-width: 796px;
+    /* Colors */
+    --color-primary: #000000;
+    --color-secondary: #64748b;
+}

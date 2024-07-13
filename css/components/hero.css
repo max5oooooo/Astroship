@@ -1,0 +1,18 @@
+header .hero__left h1 {
+    font-size: 3.5rem;
+}
+
+header .hero__left p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 20px auto;
+}
+
+header .hero__left .hero__left-cta {
+    gap: 10px;
+}
+
+header .hero__right img {
+    width: 420px;
+    height: auto;
+}

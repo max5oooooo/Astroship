@@ -1,0 +1,84 @@
+.card-info {
+    display: flex;
+    flex-direction: row;
+    flex: 33%;
+}
+
+.card-info .card-info__left {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: flex-start;
+}
+
+.card-info .card-info__left .card-info__left-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.card-info .card-info__left .card-info__left-icon svg {
+    fill: white;
+    width: 12px;
+    height: 12px;
+}
+
+.card-info .card-info__right {
+    padding: 10px;
+}
+
+.card-info .card-info__right p {
+    margin-top: 10px;
+    line-height: 1.25rem;
+}
+
+.card-pricing {
+    flex: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 2px solid #ebeff5;
+    border-radius: 0.3rem;
+}
+
+.card-pricing .card-pricing__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-pricing .card-pricing__header h3 {
+    font-size: 1.75rem;
+}
+
+.card-pricing .card-pricing__header p {
+    font-size: 0.85rem;
+    margin: 0.5rem 0;
+}
+
+.card-pricing .card-pricing__body .card-pricing__body-list {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+}
+
+.card-pricing .card-pricing__body .card-pricing__body-list .card-pricing__body-list-item {
+    display: flex;
+    gap: 0.85rem;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.card-pricing .card-pricing__body .card-pricing__body-list .card-pricing__body-list-item span {
+    font-size: 0.75rem;
+}
+
+.card-pricing .card-pricing__body .card-pricing__body-list .card-pricing__body-list-item svg {
+    width: 24px;
+    height: 24px;
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+/* General Imports */
+@import url('./root.css');
+@import url('./main.css');
+
+/* Pages */
+@import url('./pages/homepage.css');
+@import url('./pages/pricing.css');
+@import url('./pages/about.css');
+@import url('./pages/contact.css');
+
+/* Utility */
+@import url('./utility/index.css');
+
+/* Components CSS */
+@import url('./components/buttons.css');
+@import url('./components/cards.css');
+@import url('./components/hero.css');
+
+/* Pages global components */
+@import url('./components/global/navbar.css');
+@import url('./components/global/header.css');
+@import url('./components/global/footer.css');

@@ -1,0 +1,11 @@
+footer .footer__box {
+    gap: 10px;
+}
+
+footer .footer__box .footer__box-top {
+    font-size: 0.70rem;
+}
+
+footer .footer__box .footer__box-bottom {
+    font-size: 0.65rem;
+}
