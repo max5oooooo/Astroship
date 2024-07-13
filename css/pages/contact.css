@@ -18,11 +18,15 @@
 .section_textright_form_input{
     width: 100%;
     padding: 10px;
+    border: 2px solid gray;
+    border-radius: 5px ;
 }
 
 .section_textright_form_textarea{
     width: 100%;
     line-height: 75px;
+    border: 2px solid gray;
+    border-radius: 6px;
 }
 
 .section_textleft{

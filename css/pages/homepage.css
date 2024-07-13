@@ -45,6 +45,8 @@ section#sec-3 .sec-3__banner p {
 }
 
 .section_textright{
-    width: 35%;
+    width: 45%;
     height: 80%;
+    border: 5px;
+    border-radius: 5px border solid gray;
 }
