@@ -1,0 +1,48 @@
+.text_center{
+    margin: -60px;
+}
+
+.class_contact{
+    font-size: 48px;
+    
+    
+}
+
+
+.section_textright_form{
+    width: 100%;
+    padding-left: 70px;
+
+}
+
+.section_textright_form_input{
+    width: 100%;
+    padding: 10px;
+}
+
+.section_textright_form_textarea{
+    width: 100%;
+    line-height: 75px;
+}
+
+.section_textleft{
+    width: 50%;
+    font-size: 15px;
+
+
+}
+
+.spanclass{
+    padding: 3.5px;
+    font-size: 15px;
+}
+
+h2{
+    font-size: 22px;
+}
+
+P{
+    font-size: 17.5px;
+}
+
+
